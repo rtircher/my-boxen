@@ -13,18 +13,18 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "2.1.0"
+github "boxen", "2.2.2"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
 github "dnsmasq",    "1.0.0"
 github "gcc",        "1.0.0"
-github "git",        "1.2.2"
+github "git",        "1.2.3"
 github "homebrew",   "1.1.2"
-github "hub",        "1.0.0"
+# github "hub",        "1.0.0"
 github "inifile",    "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
-github "nginx",      "1.4.0"
+# github "nginx",      "1.4.0"
 github "nodejs",     "2.2.0"
 github "repository", "2.0.2"
 github "ruby",       "4.1.0"
@@ -33,3 +33,23 @@ github "sudo",       "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "puppet-osx",            "1.1.0"
+github "puppet-firefox",        "1.0.6"
+github "puppet-java",           "1.1.0"
+github "puppet-vagrant",        "2.0.6"
+github "puppet-flux",           "0.0.1"
+github "puppet-sublime_text_2", "1.1.0"
+github "puppet-dropbox",        "1.1.0"
+github "puppet-adium",          "1.0.2"
+github "puppet-virtualbox",     "1.0.2"
+github "puppet-vmware_fusion",  "1.0.0"
+github "puppet-slate",          "1.0.0"
+github "puppet-emacs",          "1.1.0"
+github "puppet-cyberduck",      "1.0.0"
+github "puppet-chrome",         "1.1.0"
+github "puppet-transmission",   "1.0.0"
+github "puppet-zsh",            "1.0.0"
+github "puppet-handbrake",      "1.0.0"
+github "puppet-caffeine",       "1.0.0"
+github "puppet-vlc",            "1.0.1"
