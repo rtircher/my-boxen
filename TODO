@@ -1,3 +1,6 @@
+Go script that takes care of
+* xcode
+
 Install:
 * leinigen
 * photoshop
@@ -14,7 +17,7 @@ Install:
 * nag
 * notational velocity
 * OmniDiskSweeper
-* Pocket
+* Pocket/read later
 * Skype
 * SQLiteManager
 
@@ -24,5 +27,19 @@ Pull repos:
 
 Setup:
 * fonts for emacs
-* mail.app accounts
+* apple mail
+** accounts
+** rules
+** signature
 * dropbox?
+* Disable Java in chrome
+* Disable Java in safari
+* Colors for terminal
+* mac os ninja configs
+* rvm
+* lein
+* github ssh keys
+
+
+** Read docs/puppet.md
+** Review manifests/site.pp
