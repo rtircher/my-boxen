@@ -1,7 +1,8 @@
 class projects::iPerture {
-  $github_user    = "rtircher"
+  include virtualbox
+  include vagrant
 
-  repository { :
-    source  => "${github_user}/iPerture",
+  boxen::project { 'iPerture':
+    source  => "rtircher/iPerture",
   }
 }
