@@ -7,7 +7,7 @@ class people::rtircher {
   include dropbox # how to configure it?
   include adium   # how to configure it?
   include virtualbox
-  include vmware_fusion
+  # include vmware_fusion
   include slate
   include emacs
   include cyberduck
