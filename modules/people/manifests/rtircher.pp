@@ -48,6 +48,10 @@ class people::rtircher {
   $emacs_dotfiles = "${my}/emacs-dotfiles"
   $github_user    = "rtircher"
 
+  file { "$my":
+    ensure => 'directory',
+  }
+
   # need to do the all symlink stuff???
   repository { $dotfiles:
     source  => "${github_user}/dot-files",
