@@ -13,7 +13,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen",      "3.0.2"
+github "boxen",      "3.0.4"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -38,22 +38,22 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "osx",            "1.1.0"
-github "firefox",        "1.0.6"
+github "firefox",        "1.1.3"
 github "java",           "1.1.0"
-github "vagrant",        "2.0.6"
+github "vagrant",        "2.0.12"
 github "flux",           "0.0.1"
-github "sublime_text_2", "1.1.0"
+github "sublime_text_2", "1.1.2"
 github "dropbox",        "1.1.0"
 github "adium",          "1.2.0"
-github "virtualbox",     "1.0.2"
+github "virtualbox",     "1.0.6"
 # github "vmware_fusion",  "1.0.0"
 github "slate",          "1.0.0"
 github "emacs",          "1.1.0"
-github "cyberduck",      "1.0.0"
+github "cyberduck",      "1.0.1"
 github "chrome",         "1.1.0"
 github "transmission",   "1.0.0"
 github "zsh",            "1.0.0"
-github "handbrake",      "1.0.0"
+github "handbrake",      "1.0.1"
 github "caffeine",       "1.0.0"
-github "vlc",            "1.0.1"
-github "alfred",         "1.0.2"
+github "vlc",            "1.0.5"
+github "alfred",         "1.1.5"
