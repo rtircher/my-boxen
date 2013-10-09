@@ -58,6 +58,11 @@ class people::rtircher {
     require => File[$my]
   }
 
+  exec { 'setup-dotfiles':
+    command => "${dotfiles}/setup.sh",
+    require => Repository[$dotfiles],
+  }
+
   # need to do the all symlink stuff???
   repository { $emacs_dotfiles:
     source  => "${github_user}/emacs-dotfiles",
